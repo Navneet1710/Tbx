@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: TB Detection with GPU",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/tb_detection_real_dataset.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0"
+            }
+        },
+        {
+            "name": "Python: CUDA Test",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/cuda_setup_test.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

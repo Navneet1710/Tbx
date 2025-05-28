@@ -1,0 +1,19 @@
+{
+    "python.terminal.activateEnvironment": true,
+    "python.defaultInterpreterPath": "C:\\Users\\NAVNEET GUGLANI\\Desktop\\Tbx\\.venv\\Scripts\\python.exe",
+    "terminal.integrated.env.windows": {
+        "CUDA_PATH": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1",
+        "CUDA_HOME": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1",
+        "PATH": "${env:PATH};C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin"
+    },
+    "python.terminal.executeInFileDir": true,
+    "python.analysis.extraPaths": [
+        "./venv/Lib/site-packages"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "files.associations": {
+        "*.cu": "cuda-cpp",
+        "*.cuh": "cuda-cpp"
+    }
+}
